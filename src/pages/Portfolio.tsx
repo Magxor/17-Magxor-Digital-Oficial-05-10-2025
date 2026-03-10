@@ -5,17 +5,26 @@ const portfolioItems = [
   {
     title: 'Anibalengo',
     description: 'Tienda Virtual para ventas de Repuestos y Accesorios de Motos.',
-    image: 'https://i.postimg.cc/cCMLb2Lx/anibalengo.png',
+    image: 'https://i.postimg.cc/rFYJ2Fht/logo-anibalengo-webp.webp',
     category: 'Plan Empresa/Tienda Virtual',
     link: 'https://anibalengo.vercel.app/',
     tags: ['Tienda', 'Accesorios', 'Repuestos', 'Motos']
-  },{
+  },
+  {
     title: 'Frutos de Emilia',
     description: 'Tienda Virtual para ventas de Productos de Dietética.',
     image: 'https://i.postimg.cc/d3hcfVnn/fondofrutosdemilia.webp',
     category: 'Plan Empresa/Tienda Virtual',
     link: 'https://frutosdemilia.vercel.app/',
     tags: ['Tienda', 'Almientación', 'Dietética', 'Salud']
+  },
+  {
+    title: 'Casino Multiskin',
+    description: 'Página de casino online para jugar y ganar',
+    image: 'https://i.postimg.cc/hG4TXk34/casino.jpg',
+    category: 'Plan Particular',
+    link: 'https://sites.google.com/view/gestoria-previsional/magxor',
+    tags: ['Casino', 'Entretenimiento', 'Diversión']
   },
   {
     title: 'Gestoría Previsional',
