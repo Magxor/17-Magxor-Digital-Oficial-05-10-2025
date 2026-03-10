@@ -6,7 +6,7 @@ const plans = [
   {
     icon: User,
     title: 'Plan Particular',
-    price: '10.000',
+    price: '20.000',
     popular: false,
     features: [
       'Diseño web profesional personalizado',
@@ -20,7 +20,7 @@ const plans = [
   {
     icon: Building2,
     title: 'Plan Comercio',
-    price: '20.000',
+    price: '30.000',
     popular: false,
     features: [
       'Diseño web profesional personalizado',
@@ -39,7 +39,7 @@ const plans = [
   {
     icon: Building,
     title: 'Plan Empresa',
-    price: '30.000',
+    price: '40.000',
     popular: true,
     features: [
       'Diseño web profesional personalizado',
@@ -61,6 +61,7 @@ const plans = [
       'Servicio de Reservas',
       'Servicio de Turnos',
       'Menú Interactivo',
+      'Tienda Virtual',
       'Reseñas de Google'
       
     ]
@@ -94,7 +95,7 @@ const creativeServices = [
   {
     icon: Music,
     title: 'Creación de Jingles',
-    price: '9.999',
+    price: '30.000',
     description: 'Jingles profesionales y memorables que harán que tu marca se destaque y sea recordada por tus clientes.',
     features: [
       'Composición musical',
@@ -109,7 +110,7 @@ const creativeServices = [
   {
     icon: Palette,
     title: 'Creación de Logos',
-    price: '9.999',
+    price: '20.000',
     description: 'Logos únicos y profesionales que representen perfectamente la identidad visual de tu marca.',
     features: [
       'Diseño Originales',
