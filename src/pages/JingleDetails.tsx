@@ -9,15 +9,25 @@ export function JingleDetails() {
 
   const jingleExamples = [
     {
+      title: 'Musica Personalizada - Cataratás del Iguazú',
+      description: 'Musica Diseñada por su autor que nos pidió componer su idea, nos dió su letra, nos pidio el ritmo y los instrumentos y aqui el resultado.',
+      audioUrl: 'https://od.lk/s/OTdfOTk1NzAwMTVf/Cataratas%20del%20Iguaz%C3%BA2.mp3'
+    },
+    {
+      title: 'Musica Personalizada - Comidas Ninja Torneo',
+      description: 'Musica Diseñada para un juego de torneos de comida para un desarrollador de juegos.',
+      audioUrl: 'https://od.lk/s/OTdfOTk1MDgzMTJf/COMIDAS%20NINJA%20TORNEO_1.mp3'
+    },
+    {
       title: 'Carga Express - Particular',
       description: 'Musica Diseñada para Ser Pegadiza y Fácil de Recordar',
       audioUrl: 'https://od.lk/s/OTdfOTQxMzQzMzVf/Muzzio%20Materiales.mp3'
     },
-      {
-        title: 'Jingle Electricista - Comercio',
-        description: 'Diseñado para transmitir novedad al prestar servicios Eléctricos',
-        audioUrl: 'https://od.lk/s/OTdfOTQxMzQzMzhf/Electricista%20en%20tu%20hogar.mp3'
-      },
+    {
+      title: 'Jingle Electricista - Comercio',
+      description: 'Diseñado para transmitir novedad al prestar servicios Eléctricos',
+      audioUrl: 'https://od.lk/s/OTdfOTQxMzQzMzhf/Electricista%20en%20tu%20hogar.mp3'
+    },
     {
       title: 'Jingle Gráfica - Comercio',
       description: 'Diseñado para expresar lo que Grafica Ventura representa para sus clientes',
@@ -34,19 +44,59 @@ export function JingleDetails() {
       audioUrl: 'https://od.lk/s/OTdfOTQxMzQzNDFf/manicura%20a%20domicilio.mp3'
     },
     {
+      title: 'Musica Personalizada - Flor de Jazmín',
+      description: 'Musica personalizada para un cliente que quería hacer realidad su música.',
+      audioUrl: 'https://od.lk/s/OTdfOTk1NTU2NTBf/Flor%20de%20Jazmin.mp3'
+    },
+    {
+      title: 'Musica Personalizada - María Pamela',
+      description: 'Música para dedicar a una persona especial',
+      audioUrl: 'https://od.lk/s/OTdfOTk0OTg5MzFf/Mar%C3%ADa%20Pamela%202.mp3'
+    },
+    {
       title: 'Jingle Tatoo - Moda',
       description: 'Diseño energético y memorable para promocionar de manera diferente',
       audioUrl: 'https://od.lk/s/OTdfOTQxMzQzMzRf/Tinta%20y%20Arte.mp3'
+    },
+    {
+      title: 'Musica Personalizada - 15 Años Daira',
+      description: 'Música para los 15 años de Daira dedicada por su abuela',
+      audioUrl: 'https://od.lk/s/OTdfOTk1MTQ5MTRf/15%20A%C3%B1os%20Daira.mp3'
+    },
+    {
+      title: 'Musica Personalizada - Mi Mamá',
+      description: 'Música para dedicar a la madre de un cliente',
+      audioUrl: 'https://od.lk/s/OTdfOTk1Nzk1MDRf/Mi%20Mam%C3%A1.mp3'
+    },
+    {
+      title: 'Musica Personalizada - Mis Anhelos',
+      description: 'Música personalizada de un cliente, materializamos su idea',
+      audioUrl: 'https://od.lk/s/OTdfOTk1NjI3ODBf/Mis%20Anhelos%20V2mp3.mp3'
+    },
+    {
+      title: 'Musica Personalizada - Mujercita Misionera',
+      description: 'Música personalizada de un cliente, El covid no le permitió grabarlo y nosotros lo hicimos por él',
+      audioUrl: 'https://od.lk/s/OTdfOTk1MTk3MzVf/Mujercita%20Misionera%202.mp3'
+    },
+    {
+      title: 'Musica Personalizada - Tu Nombre María',
+      description: 'Música personalizada para dedicar a una persona amada de nuestro cliente',
+      audioUrl: 'https://od.lk/s/OTdfOTk1NzE3ODFf/Tu%20Nombre%2C%20Mar%C3%ADa.mp3'
+    },
+    {
+      title: 'Musica Personalizada - 15 Años Antonela',
+      description: 'Música para los 15 años de Antonela dedicada por su abuelo',
+      audioUrl: 'https://od.lk/s/OTdfOTk0NDU0NDlf/Antonella%20Maria%20Cieo.mp3'
     }
   ];
 
   const features = [
     'Composición musical 100% original',
-    'Múltiples versiones',
+    'Personalizada con los instrumentos que quieras integrar',
     'Formatos MP3',
     'Derechos de uso comercial incluidos',
     'Revisiones ilimitadas hasta tu satisfacción',
-    'Entrega en 5-7 días hábiles'
+    'Entrega en 1-5 días hábiles'
   ];
 
   return (
@@ -151,7 +201,7 @@ export function JingleDetails() {
                 className="bg-gradient-to-r from-purple-500 to-pink-600 text-white px-8 py-4 rounded-lg text-lg font-semibold hover:opacity-90 transition-all hover:scale-105 inline-flex items-center justify-center space-x-2"
               >
                 <Music className="w-5 h-5" />
-                <span>¡Quiero mi Jingle!</span>
+                <span>¡Quiero mi Jingle o Música Personalizada!</span>
               </a>
               <a
                 href="/contacto"

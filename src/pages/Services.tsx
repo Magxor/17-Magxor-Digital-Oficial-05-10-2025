@@ -94,9 +94,9 @@ const additionalServices = [
 const creativeServices = [
   {
     icon: Music,
-    title: 'Creación de Jingles',
+    title: 'Creación de Jingles Y Música Personalizada',
     price: '30.000',
-    description: 'Jingles profesionales y memorables que harán que tu marca se destaque y sea recordada por tus clientes.',
+    description: 'Jingles profesionales y memorables que harán que tu marca se destaque y sea recordada por tus clientes, También Música Personalizada para dedicar o regalar para un momento especial.',
     features: [
       'Composición musical',
       'Letra personalizada',
