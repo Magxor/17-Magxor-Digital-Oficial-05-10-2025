@@ -135,7 +135,7 @@ export function JingleDetails() {
               Precio Especial de Lanzamiento
             </h3>
             <div className="text-5xl font-bold text-purple-500 mb-6">
-              $9.999
+              $29.999
               <span className="text-lg text-gray-400 ml-2">pago único</span>
             </div>
             <p className="text-gray-300 mb-8 max-w-2xl mx-auto">

@@ -23,8 +23,12 @@ const faqs = [
     category: 'Pagos y Facturación',
     questions: [
       {
+        question: '¿Cómo obtengo mi primer mes gratis?',
+        answer: 'El primer més gratuito se accede desde el formulario del plan que te interese. Desde allí puedes cargar tus datos y comenzaremos a desarrollar tu web, una vez confirmada, registras tu pago (no se te cobrará ese mes), luego subimos tu web a internet y desde ese momento, comienza tu més gratis!'
+      },
+      {
         question: '¿Cómo se paga el servicio?',
-        answer: 'Aceptamos transferencias y pagos con MercadoPago. El servicio se paga mensualmente, el primer mes es gratis (pagando con MercadoPago) para que puedas probar nuestros servicios sin compromiso y sin riesgos'
+        answer: 'Aceptamos transferencias y pagos con MercadoPago. El servicio se paga mensualmente, el primer mes es gratis (pagando con MercadoPago desde el formulario) para que puedas probar nuestros servicios sin compromiso y sin riesgos'
       },
       {
         question: '¿Hay costos ocultos?',

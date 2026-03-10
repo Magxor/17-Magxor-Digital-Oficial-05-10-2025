@@ -3,6 +3,21 @@ import { ExternalLink, Filter } from 'lucide-react';
 
 const portfolioItems = [
   {
+    title: 'Anibalengo',
+    description: 'Tienda Virtual para ventas de Repuestos y Accesorios de Motos.',
+    image: 'https://i.postimg.cc/cCMLb2Lx/anibalengo.png',
+    category: 'Plan Empresa/Tienda Virtual',
+    link: 'https://anibalengo.vercel.app/',
+    tags: ['Tienda', 'Accesorios', 'Repuestos', 'Motos']
+  },{
+    title: 'Frutos de Emilia',
+    description: 'Tienda Virtual para ventas de Productos de Dietética.',
+    image: 'https://i.postimg.cc/d3hcfVnn/fondofrutosdemilia.webp',
+    category: 'Plan Empresa/Tienda Virtual',
+    link: 'https://frutosdemilia.vercel.app/',
+    tags: ['Tienda', 'Almientación', 'Dietética', 'Salud']
+  },
+  {
     title: 'Gestoría Previsional',
     description: 'Página web para un estudio de gestoría previsional con información de servicios y contacto directo.',
     image: 'https://i.postimg.cc/s23JSkMv/ad.jpg&auto=format&fit=crop&w=800&q=80',
@@ -42,6 +57,7 @@ const portfolioItems = [
     link: 'https://quedate-apart-hotel.netlify.app/',
     tags: ['Hotel', 'Hospedaje', 'Apart']
   },
+   
   {
     title: 'Carga Express',
     description: 'Servicio de Moto Auxilio, Logistica y Mini Fletes.',
