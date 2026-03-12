@@ -23,7 +23,7 @@ const portfolioItems = [
     description: 'Página de casino online para jugar y ganar',
     image: 'https://i.postimg.cc/hG4TXk34/casino.jpg',
     category: 'Plan Particular',
-    link: 'https://sites.google.com/view/gestoria-previsional/magxor',
+    link: 'https://casinomultiskin.netlify.app',
     tags: ['Casino', 'Entretenimiento', 'Diversión']
   },
   {
